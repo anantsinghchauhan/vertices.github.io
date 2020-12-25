@@ -1,8 +1,8 @@
 const t2 = gsap.timeline({
     scrollTrigger: {
-        trigger : 'body',
+        trigger : '#about',
         start : 'top center',
-
+        toggleactions: 'play pause resume reverse'
     }
 });
 
